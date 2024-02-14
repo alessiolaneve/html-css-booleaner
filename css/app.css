@@ -2,6 +2,14 @@
     background-color: rgb(151, 198, 230);
 }
 
+.logo {
+    width: 200px;
+}
+
 .img{
     font-size: x-small;
+}
+
+.author {
+    color:rgb(29, 127, 240);
 }

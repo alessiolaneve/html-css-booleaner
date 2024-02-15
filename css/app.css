@@ -1,15 +1,30 @@
-.page-header {
-    background-color: rgb(151, 198, 230);
-}
-
 .logo {
     width: 200px;
+}
+
+.page-header {
+    background-color: rgb(151, 198, 230);
+    padding: 30px;
 }
 
 .img{
     font-size: x-small;
 }
 
-.author {
+.booleaner {
     color:rgb(29, 127, 240);
+}
+
+ul{
+    padding-left: 10px;
+}
+
+.title_tab {
+    padding: 0px;
+    background-color: rgb(64, 118, 199);
+    color: white;
+}
+
+.grey_bg {
+    background-color: rgb(209, 227, 247);
 }

@@ -2,17 +2,23 @@
 /* RESET */
 
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
 a {
     text-decoration: none;
-    color: currentColor;
+    color: cornflowerblue;
 }
 
 main {
     margin: 16px 16px;
+}
+
+main > * {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* HEADER */
@@ -27,6 +33,10 @@ main {
 }
 
 /* MAIN */
+
+.author {
+    color: grey;
+}
 
 .img {
     font-size: x-small;
@@ -50,6 +60,22 @@ ul{
     background-color: rgb(209, 227, 247);
 }
 
+table {
+    width: 100%;
+}
+
+.title_tab {
+    text-align: left;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
 /* FOOTER */
 
 .page-footer {
@@ -58,5 +84,4 @@ ul{
     font-size: 12px;
     text-align: center;
     padding: 16px;
-
 }
